@@ -1,0 +1,66 @@
+@charset "UTF-8";
+
+html {
+	font-family: serif;
+	font-weight: 900;
+}
+html * {
+	box-sizing: border-box;
+}
+.wrapper {
+	margin: 0 auto 0 auto;
+	max-width: 960px;
+	text-align: center;
+}
+/*login.php*/
+.login_box {
+	margin: 100px 200px 0px 200px;
+}
+.title {
+	border-bottom: 1px solid #cc6666;
+	color: #cc6666;
+}
+.error {
+	font-size:14px;
+	color: red;
+}
+form {
+	margin-top: 40px;
+}
+input[type="submit"] {
+	margin-top: 20px;
+	color: white;
+	font-family: serif;
+	font-size: 15px;
+	font-weight: 900;
+	width:12em;
+	height: 2em;
+	background-color: #cc6666;
+	border: #cc6666;
+}
+/*top.php*/
+.link_box {
+	display:flex;
+	justify-content: center;
+}
+.link_botton {
+	width:200px;
+	height: 50px;
+	background-color: #cc6666;
+	font-size: 18px;
+	padding: 10px 0px;
+	margin: 150px 70px;
+}
+a:link{
+	color: white;
+	text-decoration: none;
+}
+a:visited {
+	color: white;
+}
+a:hover {
+	color: #E8AB8F;
+}
+a:active {
+	color: #E8AB8F;
+}

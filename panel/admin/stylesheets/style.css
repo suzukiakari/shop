@@ -1,0 +1,107 @@
+@charset "UTF-8";
+
+html {
+	font-family: serif;
+	font-weight: 900;
+}
+html * {
+    box-sizing: border-box;
+}
+body {
+	margin-bottom: 150px;
+}
+.wrapper {
+	margin: 0 auto 0 auto;
+	max-width: 960px;
+	text-align: center;
+}
+/*admin_list.php*/
+.title {
+	border-bottom: 1px solid #cc6666;
+	color: #cc6666;
+	margin-bottom: 100px;
+}
+.link_box {
+	display:flex;
+	justify-content: center;
+}
+.link_botton {
+	width: 125px;
+	height: 30px;
+	background-color: #cc6666;
+	font-size: 16px;
+	padding: 3px 0px;
+	margin: 0px 25px 0px 25px;
+}
+a:link {
+	color: white;
+	text-decoration: none;
+}
+a:visited {
+	color: white;
+}
+a:hover {
+	color: #E8AB8F;
+}
+a:active {
+	color: #E8AB8F;
+}
+.ope_link a:link {
+    color: #cc6666;
+}
+.ope_link a:visited {
+    color: #cc6666;
+}
+.ope_link a:hover {
+	color: #7f1000;
+}
+.ope_link a:active {
+	color: #7f1000;
+}
+.list {
+	border-collapse: collapse;
+	margin-top: 100px;
+}
+.list tr, .list td, .list th {
+	padding: 8px;
+	width: 200px;
+	border: 1px solid #bec2c7;
+	text-align: center;
+}
+
+/*admin_add.php*/
+.error {
+	font-size:14px;
+	color: red;
+}
+.add {
+	margin-top: 80px;
+}
+.add tr, .add td {
+	padding: 20px 8px;
+	width: 300px;
+	text-align: center;
+}
+input[type="submit"], input[type="button"] {
+	margin: 50px 0px 0px 30px;
+	color: white;
+	font-family: serif;
+	font-size: 15px;
+	font-weight: 900;
+	width:10em;
+	height: 2em;
+	background-color: #cc6666;
+	border: #cc6666;
+}
+/*〇〇_〇〇_result.php*/
+.result {
+	margin: 150px 0px 20px 0px;
+}
+/*admin_edit.php*/
+.edit_form {
+	margin-top: 60px;
+}
+/*admin_delete.php*/
+.delete_box {
+	margin-top: 80px;
+}
